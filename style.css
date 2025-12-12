@@ -4,3 +4,9 @@ body {
 .whiteText {
     color: #FFFFFF;
 }
+a:link {
+    color: #00FFFF ;
+}
+a:visited {
+    color: #FFFF00;
+}
