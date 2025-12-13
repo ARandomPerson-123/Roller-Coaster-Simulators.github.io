@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://arandomperson-123.github.io/Roller-Coaster-Simulators.github.io/sitemap.xml
