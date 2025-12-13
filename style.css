@@ -14,3 +14,6 @@ a:visited {
 a:hover {
     color: #FF0000;
 }
+table {
+    border: 1px solid white;
+}
