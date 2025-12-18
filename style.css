@@ -17,31 +17,3 @@ a:hover {
 table, td, th, tr {
     border: 1px solid white;
 }
-
-.navbar {
-    background-color: black;
-    position: sticky;
-    top: 0;
-
-        }
-.navbar > ul {
-    list-style-type: none;
-    display: flex;
-    margin: 0px;
-    padding: 0px;
-           }
-.navbar > ul > li > a {
-    display: block;
-    text-decoration: none;
-        }
-a:hover {
-    color: red;
-        }
-ul li {
-    display: inline;
-    font-size: 20px;
-            }
-ul li a {
-    padding: 0;
-    margin: 20px;
-        }
