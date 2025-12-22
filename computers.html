@@ -43,6 +43,38 @@
          margin: 20px;
         }
 
+        .keyboard:hover span {
+            display: block;
+        }
+        .keyboard:hover {
+            color: red;
+            font-size: 30px;
+        }
+
+        .keyboard {
+            position: relative; /* Essential for positioning the image relative to the word */
+            display: inline; /* Keeps the word inline with the text */
+            cursor: pointer; 
+        }
+
+        .keyboard span {
+            display: none; /* Hides the image container initially */
+            position: absolute; /* Positions the image relative to the .hover-word span */
+            bottom: 100%; /* Positions the image above the text */
+            left: 50%;
+            transform: translateX(-50%); /* Centers the image above the word */
+            z-index: 99; /* Ensures the image appears above other content */
+            padding-bottom: 5px; /* Adds a small gap between the word and the image */
+            white-space: nowrap; /* Prevents image container from wrapping if it contains text */
+        }
+
+        .durability span {
+            display: none;
+        }
+        .durability:hover span p {
+            display: block;
+        }
+
     </style>
 
     <div class="navbar">
@@ -54,7 +86,7 @@
         </ul>
     </div>
     <h1>Thinkpad Computers</h1>
-    <p>Thinkpads are a brand of computers known for its durabilty, keyboard, and general value.</p>
+    <p>Thinkpads are a brand of computers known for its durabilty, <span class="keyboard">keyboard, <span> t480 keyboard <br><img class="keyboardImg" width="150px" src="images/computers/480.png"> </span></span> and general value.</p>
     <p>Lorem ipsum dolor sit amet. Qui accusantium quod At tempora delectus et nulla alias? Est veniam accusantium ab voluptas enim et numquam repellendus cum quis eveniet aut laborum quia. Hic internos iusto qui veritatis laborum eos reiciendis voluptatem! Sed veritatis doloremque quo ipsa culpa non officia minima? </p><p>Et suscipit veritatis a minus provident ea voluptatem laudantium qui laboriosam excepturi ut voluptatem sequi et tenetur accusamus et dignissimos tempore? Quo corporis dignissimos ab sunt similique aut eveniet dolor sit alias repellat. </p><p>Et maiores fuga cum quasi numquam ut rerum unde eum quia reiciendis ut omnis internos non dolor perferendis. Ut galisum voluptatibus est esse architecto id quia provident et temporibus culpa hic accusantium incidunt. </p>
 
 </body>
